@@ -37,14 +37,14 @@ Janneth Alvarado Verduzco - janneth_verduzco@live.com
 
 ## Mock-Up 
 
-### Prompt Walkthrough
-![GitHub Logo](Assets/)
+### Eet-Da-Burger (WebPage-Layout)
+![GitHub Logo](Assets/page-layout.jpg)
 
-### Prompt Walkthrough
-![GitHub Logo](Assets/)
+### Name of burger typed
+![GitHub Logo](Assets/adding-burger.jpg)
 
-### Successful Written HTML
-![GitHub Logo](Assets/)
+### Burger successfully added
+![GitHub Logo](Assets/burger-added.jpg)
 
 ## Deployed Link (Heroku)
 
