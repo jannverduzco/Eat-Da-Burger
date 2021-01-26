@@ -47,7 +47,8 @@ Janneth Alvarado Verduzco - janneth_verduzco@live.com
 ![GitHub Logo](Assets/burger-added.jpg)
 
 ## Deployed Link (Heroku)
+### https://eat-da-brg.herokuapp.com/
 
 
 ## Repository Link
-https://github.com/jannverduzco/Eat-Da-Burger
+### https://github.com/jannverduzco/Eat-Da-Burger
