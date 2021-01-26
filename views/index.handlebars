@@ -21,7 +21,7 @@
     {{#unless devoured}}
     <li>
       {{burger_name}}
-      <button class="devour-it" data-id="{{id}}" data-newDevour="{{devoured}}">
+      <button type="button" class="devour-it btn btn-danger" data-id="{{id}}" data-newDevour="{{devoured}}">
         {{#if devoured}}DONE!{{else}}DEVOUR IT!{{/if}}
       </button>
     </li>
@@ -35,7 +35,7 @@
       <div class="form-group">
         <input type="text" id="brg" name="name">
       </div>
-      <button type="submit">Submit</button>
+      <button type="submit button" class="btn btn-warning">Submit</button>
       <h2>Add a burger and Click the "Submit" button</h2>
     </form>
   </div>
