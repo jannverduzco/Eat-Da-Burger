@@ -15,19 +15,40 @@
     <img src="/assets/img/burger.png" alt="burger">
   </div>
   <br>
-
-  <ol>
-    {{#each burgers}}
-    {{#unless devoured}}
-    <li>
-      {{burger_name}}
-      <button type="button" class="devour-it btn btn-danger" data-id="{{id}}" data-newDevour="{{devoured}}">
-        {{#if devoured}}DONE!{{else}}DEVOUR IT!{{/if}}
-      </button>
-    </li>
-    {{/unless}}
-    {{/each}}
-  </ol>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="container">
+        <p class="h1">Available Burger</p>
+        <ol>
+          {{#each burgers}}
+          {{#unless devoured}}
+          <li>
+            {{burger_name}}
+            <button type="button" class="devour-it btn btn-danger" data-id="{{id}}" data-newDevour="{{devoured}}">
+              {{#if devoured}}DONE!{{else}}DEVOUR IT!{{/if}}
+            </button>
+          </li>
+          {{/unless}}
+          {{/each}}
+        </ol>
+      </div>
+    </div>
+    <div class="col">
+    <div class="container">
+        <p class="h1">Devoured Burgers</p>
+        <ol>
+          {{#each burgers}}
+          {{#if devoured}}
+          <li>
+            {{burger_name}}
+          </li>
+          {{/if}}
+          {{/each}}
+        </ol>
+      </div>
+    </div>
+  </div>
 
 
   <div class="text-center">
