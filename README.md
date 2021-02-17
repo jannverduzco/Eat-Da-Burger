@@ -10,7 +10,7 @@
 
 
 ## Description 
-
+Eat-Da-Burger is an interactive application that allows the user to enter burgers names and see them listed on the browser. The user can then click a button(Devour It) that allows the specific gurger to go to a different column(Devoured Burgers).
 
 ## User Story
 ```
